@@ -32,6 +32,10 @@
 * offset 多个提示框的间隔像素
 * url 点击内容跳转的URL
 
+## 项目主页
+
+[项目主页](https://shixinke.github.io/jquery-notify)
+
 ## 演示
 
 [演示](https://shixinke.github.io/jquery-notify/examples/basic.html)
