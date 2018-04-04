@@ -16,7 +16,7 @@
     
 ## 效果
 
-![效果图片](https://shixinke.github.io/jquery-notify/snapshot/notify.png)    
+![效果图片](https://github.com/shixinke/jquery-notify/blob/master/snapshot/nofity.png)    
     
 ## 主要参数
 
