@@ -1,37 +1,47 @@
-## Welcome to GitHub Pages
+## jQuery notify
 
-You can use the [editor on GitHub](https://github.com/shixinke/shixin.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+## 使用步骤
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+1 加载jquery.notify.css样式
 
-### Markdown
+    <link href="/jquery-notify/src/notify.css" rel="stylesheet">
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+2 在HTML底部添加jquery.notify.js类包文件(当然先要加载jquery库)
 
-```markdown
-Syntax highlighted code block
+    <script src="/jquery-notify/src/jquery.notify.js"></script>
+    
+3 调用
 
-# Header 1
-## Header 2
-### Header 3
+    $.notify({title :'提示', content:'３秒后自动关闭', timeout:3000});
+    
+## 效果
 
-- Bulleted
-- List
+![效果图片](https://shixinke.github.io/jquery-notify/snapshot/notify.png)    
+    
+## 主要参数
 
-1. Numbered
-2. List
+* timeout 自动关闭时间，默认值为4500毫秒
+* title 提示标题
+* content 提示内容
+* icon 使用的主要字体类，如iconfont
+* iconType 使用的字体图标类，如icon-success
+* closeIcon 关闭的图标
+* position 位置，可使用 top-left/top-right/bottom-left/bottom-right
+* onClose 点击关闭按钮触发的函数
+* onClick 点击内容触发的函数
+* offset 多个提示框的间隔像素
+* url 点击内容跳转的URL
 
-**Bold** and _Italic_ and `Code` text
+## 演示
 
-[Link](url) and ![Image](src)
-```
+[演示](https://shixinke.github.io/jquery-notify/examples/basic.html)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### author
 
-### Jekyll Themes
+shixinke 
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/shixinke/shixin.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+email:ishixinke@qq.com
 
-### Support or Contact
+website:http://www.shixinke.com
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
