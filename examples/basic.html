@@ -12,13 +12,23 @@
 
 <body>
 
+<h1> jquery notify demo </h1>
+
+<h3>自动关闭</h3>
+
+<div style="border:1px solid #ccc;padding:5px;">
+    <pre>
+        $.notify({title :'提示', content:'３秒后自动关闭', timeout:3000});
+    </pre>
+</div>
+
 
 
 <script src="https://cdn.bootcss.com/jquery/1.12.3/jquery.min.js"></script>
 <script src="/jquery-notify/src/jquery.notify.js"></script>
 <script type="text/javascript">
-            $.notify({title :'提示', content:'３秒后自动关闭', timeout:3000});
-	      $.notify({title :'提示', content:'不会自动关闭的', timeout:0});
+    $.notify({title :'提示', content:'３秒后自动关闭', timeout:3000});
+    $.notify({title :'提示', content:'不会自动关闭的', timeout:0});
 </script>
 
 </body>
